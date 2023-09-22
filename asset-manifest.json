@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ArgProApi/static/css/main.073c9b0a.css",
-    "main.js": "/ArgProApi/static/js/main.cdcd7e17.js",
-    "static/js/787.cf0b497f.chunk.js": "/ArgProApi/static/js/787.cf0b497f.chunk.js",
-    "static/media/logo.svg": "/ArgProApi/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/ArgProApi/index.html",
-    "main.073c9b0a.css.map": "/ArgProApi/static/css/main.073c9b0a.css.map",
-    "main.cdcd7e17.js.map": "/ArgProApi/static/js/main.cdcd7e17.js.map",
-    "787.cf0b497f.chunk.js.map": "/ArgProApi/static/js/787.cf0b497f.chunk.js.map"
+    "main.css": "/argprogapi/static/css/main.073c9b0a.css",
+    "main.js": "/argprogapi/static/js/main.de6561f1.js",
+    "static/js/787.cf0b497f.chunk.js": "/argprogapi/static/js/787.cf0b497f.chunk.js",
+    "static/media/logo.svg": "/argprogapi/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/argprogapi/index.html",
+    "main.073c9b0a.css.map": "/argprogapi/static/css/main.073c9b0a.css.map",
+    "main.de6561f1.js.map": "/argprogapi/static/js/main.de6561f1.js.map",
+    "787.cf0b497f.chunk.js.map": "/argprogapi/static/js/787.cf0b497f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.cdcd7e17.js"
+    "static/js/main.de6561f1.js"
   ]
 }

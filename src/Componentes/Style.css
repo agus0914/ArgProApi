@@ -1,0 +1,65 @@
+.App * {
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.ClimaSup {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.izq,
+.der {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Datos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.DatosTemp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: space-evenly;
+}
+
+.DatosInf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.medio1,
+.medio2,
+.puestaYSalida {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Temperaturas {
+  display: grid;
+  grid-template-columns: max-content;
+}
+
+.DatosInferiores {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+.puestaYSalida,
+.DatosUV,
+.medio2,
+.medio1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

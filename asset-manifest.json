@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/argprogapi/static/css/main.b95df221.css",
-    "main.js": "/argprogapi/static/js/main.92923c11.js",
-    "static/js/787.cf0b497f.chunk.js": "/argprogapi/static/js/787.cf0b497f.chunk.js",
-    "static/media/Soleado.png": "/argprogapi/static/media/Soleado.63b5b58c910acbae9a21.png",
-    "static/media/UV.jpeg": "/argprogapi/static/media/UV.21eb5af9f9be128118b4.jpeg",
-    "static/media/Precipitaciones.png": "/argprogapi/static/media/Precipitaciones.0e9d8cb6984a37799db3.png",
-    "static/media/Humedad.png": "/argprogapi/static/media/Humedad.de8a32c7d6d44bb3238e.png",
-    "static/media/CalidadAire.png": "/argprogapi/static/media/CalidadAire.958bd1d81028b6999e69.png",
-    "static/media/Temperatura.jpg": "/argprogapi/static/media/Temperatura.1f67551dd6e8caf228fa.jpg",
-    "static/media/Sunrise.png": "/argprogapi/static/media/Sunrise.cfed740f3a89b0560977.png",
-    "static/media/Sunset.png": "/argprogapi/static/media/Sunset.8fdfe9218f5ffe41c315.png",
-    "index.html": "/argprogapi/index.html",
-    "main.b95df221.css.map": "/argprogapi/static/css/main.b95df221.css.map",
-    "main.92923c11.js.map": "/argprogapi/static/js/main.92923c11.js.map",
-    "787.cf0b497f.chunk.js.map": "/argprogapi/static/js/787.cf0b497f.chunk.js.map"
+    "main.css": "/ArgProgApi/static/css/main.b95df221.css",
+    "main.js": "/ArgProgApi/static/js/main.b0f2e52d.js",
+    "static/js/787.cf0b497f.chunk.js": "/ArgProgApi/static/js/787.cf0b497f.chunk.js",
+    "static/media/Soleado.png": "/ArgProgApi/static/media/Soleado.63b5b58c910acbae9a21.png",
+    "static/media/UV.jpeg": "/ArgProgApi/static/media/UV.21eb5af9f9be128118b4.jpeg",
+    "static/media/Precipitaciones.png": "/ArgProgApi/static/media/Precipitaciones.0e9d8cb6984a37799db3.png",
+    "static/media/Humedad.png": "/ArgProgApi/static/media/Humedad.de8a32c7d6d44bb3238e.png",
+    "static/media/CalidadAire.png": "/ArgProgApi/static/media/CalidadAire.958bd1d81028b6999e69.png",
+    "static/media/Temperatura.jpg": "/ArgProgApi/static/media/Temperatura.1f67551dd6e8caf228fa.jpg",
+    "static/media/Sunrise.png": "/ArgProgApi/static/media/Sunrise.cfed740f3a89b0560977.png",
+    "static/media/Sunset.png": "/ArgProgApi/static/media/Sunset.8fdfe9218f5ffe41c315.png",
+    "index.html": "/ArgProgApi/index.html",
+    "main.b95df221.css.map": "/ArgProgApi/static/css/main.b95df221.css.map",
+    "main.b0f2e52d.js.map": "/ArgProgApi/static/js/main.b0f2e52d.js.map",
+    "787.cf0b497f.chunk.js.map": "/ArgProgApi/static/js/787.cf0b497f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b95df221.css",
-    "static/js/main.92923c11.js"
+    "static/js/main.b0f2e52d.js"
   ]
 }

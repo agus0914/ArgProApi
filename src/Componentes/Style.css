@@ -1,38 +1,87 @@
 .App * {
-  border: 1px solid black;
-  border-radius: 15px;
   text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  border-radius: 15px;
+  margin: 1px;
+  background-image: url(../Imagenes/fondo-natural-cielo-nubes.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+p,
+.Valores {
+  margin: 3px;
+  padding: 10px;
+}
+
+p {
+  font-weight: 500;
+}
+
+h2 {
+  margin: 2px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.ClimaPrincipal * {
+  background: rgba(0, 0, 0, 0);
 }
 
 .ClimaSup {
+  border: solid 2px black;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .izq,
 .der {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.Valores,
+.Titulo {
+  border: solid 2px black;
+  background: rgba(255, 255, 255, 0.6);
+}
+
 .Datos {
+  background-color: transparent;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.DatosTemp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.DatosTemp,
+.izq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
 }
 
-.DatosInf {
+.DatosSol {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.Titulo {
+  margin: 10px 10px;
+  align-self: stretch;
+}
+
+.DatosInf {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  justify-content: stretch;
 }
 
 .medio1,
@@ -43,17 +92,43 @@
   justify-content: space-evenly;
 }
 
+.Imagen {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 45%;
+  border: solid 1px black;
+}
+
+.ImagenOscura {
+  background-color: rgb(0, 0, 0, 0.35);
+  border-radius: 50%;
+  border: solid 1px black;
+}
 .Temperaturas {
-  display: grid;
-  grid-template-columns: max-content;
+  background: rgba(255, 255, 255, 0.45);
+  border: solid 2px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 .DatosInferiores {
+  border: solid 2px black;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.DatosInferiores * {
+  margin: 10px 10px;
+}
+.Colectivo {
+  border: solid 1px black;
+  background: rgb(255, 255, 255);
+}
 
+.Simbolo {
+  background-image: url(../Imagenes/FonsoSoleado4-transformed.jpeg);
+}
 
 .puestaYSalida,
 .DatosUV,

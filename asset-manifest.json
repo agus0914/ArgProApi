@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/ArgProApi/static/css/main.b95df221.css",
-    "main.js": "/ArgProApi/static/js/main.ba827277.js",
+    "main.css": "/ArgProApi/static/css/main.130e3fd9.css",
+    "main.js": "/ArgProApi/static/js/main.963009ec.js",
     "static/js/787.cf0b497f.chunk.js": "/ArgProApi/static/js/787.cf0b497f.chunk.js",
-    "static/media/Soleado.png": "/ArgProApi/static/media/Soleado.63b5b58c910acbae9a21.png",
-    "static/media/UV.jpeg": "/ArgProApi/static/media/UV.21eb5af9f9be128118b4.jpeg",
-    "static/media/Precipitaciones.png": "/ArgProApi/static/media/Precipitaciones.0e9d8cb6984a37799db3.png",
-    "static/media/Humedad.png": "/ArgProApi/static/media/Humedad.de8a32c7d6d44bb3238e.png",
-    "static/media/CalidadAire.png": "/ArgProApi/static/media/CalidadAire.958bd1d81028b6999e69.png",
-    "static/media/Temperatura.jpg": "/ArgProApi/static/media/Temperatura.1f67551dd6e8caf228fa.jpg",
-    "static/media/Sunrise.png": "/ArgProApi/static/media/Sunrise.cfed740f3a89b0560977.png",
-    "static/media/Sunset.png": "/ArgProApi/static/media/Sunset.8fdfe9218f5ffe41c315.png",
+    "static/media/fondo-natural-cielo-nubes.jpg": "/ArgProApi/static/media/fondo-natural-cielo-nubes.31a44d5878e407cb6e03.jpg",
+    "static/media/FonsoSoleado4-transformed.jpeg": "/ArgProApi/static/media/FonsoSoleado4-transformed.db3b039c08c4c2deeb3f.jpeg",
+    "static/media/Contaminacion.svg": "/ArgProApi/static/media/Contaminacion.b9acb71166354fc18231df25e15b8134.svg",
+    "static/media/Visibilidad.svg": "/ArgProApi/static/media/Visibilidad.cf7e48124c1c3703c6dc836415e044c2.svg",
+    "static/media/TemperaturaMax.svg": "/ArgProApi/static/media/TemperaturaMax.d6d3500611aba3f5b2faccea616fa0b5.svg",
+    "static/media/TemperaturaMin.svg": "/ArgProApi/static/media/TemperaturaMin.a73e72c8f3dd73f31abb08ed0bd0721c.svg",
+    "static/media/TemperaturaDiaria.svg": "/ArgProApi/static/media/TemperaturaDiaria.c37a531437c2567c76ddb03836a55ae7.svg",
+    "static/media/IndiceUV.svg": "/ArgProApi/static/media/IndiceUV.10fec5a7cbc2ac9980fa2aab2952c069.svg",
+    "static/media/Atardecer.svg": "/ArgProApi/static/media/Atardecer.157f48203d0404bc6d0df78e0ca09207.svg",
+    "static/media/Amanecer.svg": "/ArgProApi/static/media/Amanecer.cf394e2cd215dd1dc87a314248d27838.svg",
+    "static/media/Precipitaciones.svg": "/ArgProApi/static/media/Precipitaciones.550ce1972d2db37cab06c71f0d0f0842.svg",
+    "static/media/Humedad.svg": "/ArgProApi/static/media/Humedad.764c599eb3217ae1e79e62a0310dc95a.svg",
+    "static/media/Viento.svg": "/ArgProApi/static/media/Viento.fe58b3378a5b75dd0271fb4905e2a956.svg",
+    "static/media/0-DespejadoDia.svg": "/ArgProApi/static/media/0-DespejadoDia.f1148f358aa1e13bee23b6cf1b54bac7.svg",
     "index.html": "/ArgProApi/index.html",
-    "main.b95df221.css.map": "/ArgProApi/static/css/main.b95df221.css.map",
-    "main.ba827277.js.map": "/ArgProApi/static/js/main.ba827277.js.map",
+    "main.130e3fd9.css.map": "/ArgProApi/static/css/main.130e3fd9.css.map",
+    "main.963009ec.js.map": "/ArgProApi/static/js/main.963009ec.js.map",
     "787.cf0b497f.chunk.js.map": "/ArgProApi/static/js/787.cf0b497f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b95df221.css",
-    "static/js/main.ba827277.js"
+    "static/css/main.130e3fd9.css",
+    "static/js/main.963009ec.js"
   ]
 }

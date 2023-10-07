@@ -20,6 +20,7 @@ export function TempIndividuales({ Titulo, Valor, Unidad, Logo }) {
         {Valor}
         {Unidad}
       </h1>
+
       <img
         className="Imagen"
         src={Logo}

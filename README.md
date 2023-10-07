@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Pagina del clima con React y Json
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un proyecto que muestra los datos de un Json en una típica página de estado del clima. Los valores por ahora son estáticos, pero más adelante se modificará para poder recibirlos a través de una Api.
 
-## Available Scripts
+## Comenzando 🚀
 
-In the project directory, you can run:
+Este proyecto se realizó como Trabajo Practico N°1 del Proyecto "Argentina Programa 4.0", en el curso de "Programación Web Front-End" tercera parte "Páginas Web con Componentes Dinámicos" de la Universidad Nacional de Córdoba a través de la Facultad de Matemática, Astronomía, Física y Computación. El docente a cargo: profesor Guido Ivetta y ayudantes de prácticas Nehuen Aramburu y Juan Yornet.
 
-### `npm start`
+## Descripción 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+En la pantalla se muestra la información del día de la semana y la hora a la cual se está mostrando la información, se identificará mediante un Símbolo el estado actual del día siendo una animación de un sol para un día "Despejado" así con cada uno de los estados. Luego se muestra la temperatura actual con su respectiva animación fija, en un recuadro conjunto de muestran las temperaturas máximas y mínimas de del día, luego otro recuadro más con la información de humedad probabilidad de precipitaciones y viento actuales, cada uno con su animación. 
+En el medio se muestras los valores de las temperaturas pronosticadas para el día de la fecha separadas por horarios.
+En la parte inferior se muestra la información del horario de amanecer y atardecer de la fecha, el pronóstico de rayos UV máxima para la fecha, la calidad de aire actual, así como su visibilidad actual.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## A Futuro
+Esta es una primera entrega del proyecto, luego se ampliara para que los datos recibidos sean a través de una petición API para mostrar la información del día y hora actual y no de un Json estático, la ciudad a la cual es mostrada la información se podrá elegir, se le sumara otro apartado donde se indicara a través de un mapa la ubicación de los colectivos de una ciudad, la página será modularizada para que toda la información sea mostrada en una pantalla sin necesidad de bajar o subir para poder ver toda la información.
 
-### `npm test`
+### Pre-requisitos 📋
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+No requiere ningún tipo de instalación ya que todo corre sobre una página de protocolo de html5. Solo se necesita contar con algún navegador web que pueda reproducir los archivos.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Construido con 🛠️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Editado con Visual Studio Code, realizado con React.js con estilos en CSS.
 
-### `npm run eject`
+## Autores ✒️
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Autor: Agustín Leonardo Pérez
+- Colaboradores: Este fue un trabajo de varios días de investigación y pruebas, donde todas las dudas o problemas que fueron surgiendo se trabajaron tanto en clase con el profesor, como en las prácticas con los ayudantes de prácticas y mis compañeros de cursada.

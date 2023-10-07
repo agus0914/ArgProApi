@@ -8,6 +8,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  font-weight: 500;
 }
 
 p,
@@ -24,11 +25,6 @@ h2 {
   margin: 2px;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
-}
-
 .ClimaPrincipal * {
   background: rgba(0, 0, 0, 0);
 }
@@ -39,8 +35,8 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.izq,
-.der {
+.App,
+.Temperatura {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,16 +49,11 @@ h2 {
 }
 
 .Datos {
-  background-color: transparent;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
-.DatosTemp,
-.izq {
-  display: flex;
-  flex-direction: column;
+.Temperatura,
+.Datos {
   align-items: center;
   justify-content: space-evenly;
 }
@@ -84,23 +75,36 @@ h2 {
   justify-content: stretch;
 }
 
-.medio1,
-.medio2,
-.puestaYSalida {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
 .Imagen {
-  background: rgba(255, 255, 255, 0.9);
+  background: #ffffffe6;
   border-radius: 45%;
   border: solid 1px black;
 }
 
 .ImagenOscura {
-  background-color: rgb(0, 0, 0, 0.35);
-  border-radius: 50%;
+  background: #00000059;
+  border-radius: 45%;
+  border: solid 1px black;
+}
+
+.ImagenChicaClara {
+  background: #ffffffe6;
+  height: 50px;
+  border-radius: 45%;
+  border: solid 1px black;
+}
+
+.ImagenGrandeClara {
+  background-color: #ffffffe6;
+  height: 100px;
+  border-radius: 45%;
+  border: solid 1px black;
+}
+
+.ImagenChicaOscura {
+  background: #00000059;
+  height: 50px;
+  border-radius: 45%;
   border: solid 1px black;
 }
 .Temperaturas {
@@ -123,18 +127,8 @@ h2 {
 }
 .Colectivo {
   border: solid 1px black;
-  background: rgb(255, 255, 255);
 }
 
 .Simbolo {
   background-image: url(../Imagenes/FonsoSoleado4-transformed.jpeg);
-}
-
-.puestaYSalida,
-.DatosUV,
-.medio2,
-.medio1 {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }

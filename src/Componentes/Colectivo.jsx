@@ -1,7 +1,8 @@
 export function Colectivo() {
     return (
         <div className="Colectivo">
-            <p>Datos Transporte</p>
+            <p>Datos Transporte Procimamente</p>
+            
         </div>
     )
 }

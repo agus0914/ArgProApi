@@ -10,7 +10,7 @@ export function ClimaSup({ Datos }) {
       <TempIndividuales
         Titulo={Dia.DiaSemana}
         Valor={Dia.Hora}
-        Unidad={"hs"}
+        Unidad={Dia.Unidad}
         Logo={Dia.Logo}
       />
 

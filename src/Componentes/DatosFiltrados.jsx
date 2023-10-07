@@ -52,7 +52,7 @@ export const DatosFiltrados = {
       Dia: {
         DiaSemana: diaSemana,
         Hora: hora,
-        Unidad: "hs",
+        Unidad: " hs",
         Logo: logo,
       },
 
@@ -100,7 +100,7 @@ export const DatosFiltrados = {
       Viento: {
         Titulo: "Viento",
         Valor: Datos.daily.windspeed_10m_max,
-        Unidad: Datos.daily_units.windspeed_10m_max,
+        Unidad: " "+Datos.daily_units.windspeed_10m_max,
         Logo: Viento,
         Tamaño: "Chica",
         Fondo: "Oscura",
@@ -116,16 +116,18 @@ export const DatosFiltrados = {
   DatosInferiores: {
     Salida: {
       Valor: Datos.daily.sunset.toString().split("T")[1],
+      Unidad : " hs",
       Imagen: Salida,
     },
     Puesta: {
       Valor: Datos.daily.sunset.toString().split("T")[1],
+      Unidad : " hs",
       Imagen: Puesta,
     },
     DatoInferior: {
       UV: {
         Titulo: "Indice Rayos Ultra Violetas",
-        Valor: Datos.daily.uv_index_max,
+        Valor: Datos.daily.uv_index_max, 
         Imagen: UV,
         Oscuro: "",
       },
@@ -138,6 +140,7 @@ export const DatosFiltrados = {
       Visibilidad: {
         Titulo: "Visibilidad",
         Valor: VisibilidadKm,
+        Unidad: " Km",
         Imagen: Visibilidad,
         Oscuro: "Oscura",
       },

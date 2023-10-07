@@ -1,9 +1,9 @@
-export function DatoInferior({ Titulo, Valor, Imagen, Oscuro }) {
+export function DatoInferior({ Titulo, Valor,Unidad, Imagen, Oscuro }) {
   return (
     <div className="DatosInf">
       <p className="Titulo">{Titulo}</p>
       <div className="Datos">
-        <h1 className="Valores">{Valor}</h1>
+        <h1 className="Valores">{Valor}{Unidad} </h1>
         <img
           className={"Imagen" + Oscuro}
           src={Imagen}
@@ -15,10 +15,10 @@ export function DatoInferior({ Titulo, Valor, Imagen, Oscuro }) {
   );
 }
 
-export function SalidaPuesta({ Valor, Imagen }) {
+export function SalidaPuesta({ Valor, Imagen , Unidad}) {
   return (
     <div className="Datos">
-      <h2 className="Valores">{Valor}</h2>
+      <h2 className="Valores">{Valor}{Unidad}</h2>
       <img
         className="Imagen"
         src={Imagen}

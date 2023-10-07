@@ -1,8 +1,4 @@
-import Datos from "./Datos.json";
 import { SalidaPuesta, DatoInferior } from "./ComponentesInferiores";
-const MaxUV = Datos.daily.uv_index_max;
-const Amanecer = Datos.daily.sunset.toString().split("T")[1];
-const Atardecer = Datos.daily.sunset.toString().split("T")[1];
 
 export function DatosInferiores({ Datos }) {
   const Salida = Datos.Salida;
@@ -12,9 +8,17 @@ export function DatosInferiores({ Datos }) {
     <div className="DatosInferiores">
       <div className="DatosSol">
         <p className="Titulo">"Puesta y salida" </p>
-        <SalidaPuesta Valor={Salida.Valor} Imagen={Salida.Imagen} />
+        <SalidaPuesta
+          Valor={Salida.Valor}
+          Imagen={Salida.Imagen}
+          Unidad={Salida.Unidad}
+        />
 
-        <SalidaPuesta Valor={Puesta.Valor} Imagen={Puesta.Imagen} />
+        <SalidaPuesta
+          Valor={Puesta.Valor}
+          Imagen={Puesta.Imagen}
+          Unidad={Puesta.Unidad}
+        />
       </div>
 
       <DatoInferior
@@ -34,6 +38,7 @@ export function DatosInferiores({ Datos }) {
       <DatoInferior
         Titulo={Inferior.Visibilidad.Titulo}
         Valor={Inferior.Visibilidad.Valor}
+        Unidad={Inferior.Visibilidad.Unidad}
         Imagen={Inferior.Visibilidad.Imagen}
         Oscuro={Inferior.Visibilidad.Oscuro}
       />

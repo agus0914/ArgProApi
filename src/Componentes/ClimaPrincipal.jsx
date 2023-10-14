@@ -32,7 +32,7 @@ export function ClimaPrincipal() {
 
   return (
     <>
-      {Carga == false ? (
+      {Carga === false ? (
        <Cargando />
       ) : (
         <div className="ClimaPrincipal">

@@ -16,14 +16,13 @@ import Puesta from "../Imagenes/Atardecer.svg";
 
 import Presion from "../Imagenes/Presion.svg"
 
-import Contaminacion from "../Imagenes/Contaminacion.svg";
+// import Contaminacion from "../Imagenes/Contaminacion.svg";
 import Visibilidad from "../Imagenes/Visibilidad.svg";
 
 import Precipitaciones from "../Imagenes/Precipitaciones.svg";
 import UV from "../Imagenes/IndiceUV.svg";
 
  export const SetearDatos = (Data) => {
-  //console.log(Data);
   const fecha = new Date(Data.current.time.split("T")[0]);
 
   const semana = [
@@ -37,7 +36,7 @@ import UV from "../Imagenes/IndiceUV.svg";
   ];
 
   const diaSemana = semana[fecha.getUTCDay()];
-  const fechaDia =  fecha.getUTCDate()+"/"+fecha.getUTCMonth();
+  const fechaDia =  fecha.getUTCDate()+"/"+(fecha.getUTCMonth()+1);
 
   const hora = Data.current.time.split("T")[1];
 

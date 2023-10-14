@@ -2,10 +2,9 @@
 
 export function Cargando() {
   return (
-      <>
-        <h1> CARGANDO LOS DATOS</h1>
-        <span className="loading"></span>
-      </>
+      <div className="Cargando">
+        <h1 className="TextoPantalla"> CARGANDO LOS DATOS</h1>
+      </div>
   );
 }
    

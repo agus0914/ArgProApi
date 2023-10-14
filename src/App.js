@@ -2,7 +2,9 @@ import "./Componentes/Style.css";
 import { ClimaPrincipal } from "./Componentes/ClimaPrincipal";
 import { Colectivo } from "./Componentes/Colectivo";
 
+
 function App() {
+
   
 
   return (

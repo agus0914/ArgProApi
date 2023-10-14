@@ -1,6 +1,7 @@
 import { TempIndividuales, TempVarias } from "../Componentes/ValoresSup";
 
 export function ClimaSup({ Datos }) {
+  console.log(Datos)
   const Dia = Datos.TempIndividuales.Dia;
   const Actual = Datos.TempIndividuales.TempActual;
   const Varias = Datos.TempVarias;
@@ -8,7 +9,7 @@ export function ClimaSup({ Datos }) {
   return (
     <div className="ClimaSup">
       <TempIndividuales
-        Titulo={Dia.DiaSemana}
+        Titulo={Dia.DiaSemana[0] + " " + Dia.DiaSemana[1]}
         Valor={Dia.Hora}
         Unidad={Dia.Unidad}
         Logo={Dia.Logo}

@@ -1,6 +1,9 @@
 import { SalidaPuesta, DatoInferior } from "./ComponentesInferiores";
 
 export function DatosInferiores({ Datos }) {
+
+  console.log(Datos);
+
   const Salida = Datos.Salida;
   const Puesta = Datos.Puesta;
   const Inferior = Datos.DatoInferior;
@@ -28,12 +31,26 @@ export function DatosInferiores({ Datos }) {
         Oscuro={Inferior.UV.Oscuro}
       />
 
-      <DatoInferior
+      {// en esta seccion se encontraria la informacion de la calidad del aire
+      // pero como se tendria que hacer una segunda peticion aparte 
+      // mas adelante en la cursada se consultara para poder hacerla
+       }
+
+      {/* <DatoInferior
         Titulo={Inferior.CalidadAire.Titulo}
         Valor={Inferior.CalidadAire.Valor}
         Imagen={Inferior.CalidadAire.Imagen}
         Oscuro={Inferior.CalidadAire.Oscuro}
+      /> */}
+
+      <DatoInferior
+      Titulo={Inferior.Presion.Titulo}
+      Valor={Inferior.Presion.Valor}
+      Unidad={Inferior.Presion.Unidad}
+      Imagen={Inferior.Presion.Imagen}
+      Oscuro={Inferior.Presion.Oscuro}
       />
+
 
       <DatoInferior
         Titulo={Inferior.Visibilidad.Titulo}

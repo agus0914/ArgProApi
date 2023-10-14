@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ArgProApi/static/css/main.5ca58a38.css",
-    "main.js": "/ArgProApi/static/js/main.e2866490.js",
+    "main.css": "/ArgProApi/static/css/main.13a0f41c.css",
+    "main.js": "/ArgProApi/static/js/main.ac943ca7.js",
     "static/js/787.cf0b497f.chunk.js": "/ArgProApi/static/js/787.cf0b497f.chunk.js",
     "static/media/fondo-natural-cielo-nubes.jpg": "/ArgProApi/static/media/fondo-natural-cielo-nubes.31a44d5878e407cb6e03.jpg",
     "static/media/FonsoSoleado4-transformed.jpeg": "/ArgProApi/static/media/FonsoSoleado4-transformed.db3b039c08c4c2deeb3f.jpeg",
@@ -16,13 +16,14 @@
     "static/media/Precipitaciones.svg": "/ArgProApi/static/media/Precipitaciones.550ce1972d2db37cab06c71f0d0f0842.svg",
     "static/media/Humedad.svg": "/ArgProApi/static/media/Humedad.764c599eb3217ae1e79e62a0310dc95a.svg",
     "static/media/Viento.svg": "/ArgProApi/static/media/Viento.fe58b3378a5b75dd0271fb4905e2a956.svg",
+    "static/media/Presion.svg": "/ArgProApi/static/media/Presion.aa0e319b556f30173ad6c048c7700730.svg",
     "index.html": "/ArgProApi/index.html",
-    "main.5ca58a38.css.map": "/ArgProApi/static/css/main.5ca58a38.css.map",
-    "main.e2866490.js.map": "/ArgProApi/static/js/main.e2866490.js.map",
+    "main.13a0f41c.css.map": "/ArgProApi/static/css/main.13a0f41c.css.map",
+    "main.ac943ca7.js.map": "/ArgProApi/static/js/main.ac943ca7.js.map",
     "787.cf0b497f.chunk.js.map": "/ArgProApi/static/js/787.cf0b497f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ca58a38.css",
-    "static/js/main.e2866490.js"
+    "static/css/main.13a0f41c.css",
+    "static/js/main.ac943ca7.js"
   ]
 }

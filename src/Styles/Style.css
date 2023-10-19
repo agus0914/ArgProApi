@@ -1,7 +1,7 @@
 .App * {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
+  font-size: 2.5vh;
   border-radius: 15px;
   margin: 1px;
   background-image: url(../Imagenes/fondo-natural-cielo-nubes.jpg);
@@ -11,11 +11,18 @@
   font-weight: 500;
 }
 
-.App {
+.leaflet-container {
+   width: 100vh;
   height: 100vh;
-  display: grid;
-  grid-column: 1fr 1fr;
+  box-sizing: border-box;
 }
+
+/* .App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+} */
 
 /*
 
@@ -44,32 +51,74 @@ pero como no me funciono y no llegue al tiempo lo vere mas adelante.
   border-radius: 50%;
 } */
 
+
+.App {
+  height: 100%;
+  display: flex;
+
+}
+/* 
+.objeto1, .objeto2 {
+  /* Estilos comunes para ambos objetos */
+
+
+/* Estilos para pantallas anchas (PC horizontal) */
+@media (min-width: 768px) {
+  .App {
+     justify-content: center;
+    align-items: stretch;
+  }
+}
+
+/* Estilos para pantallas estrechas (celulares, orientación vertical) */
+@media (max-width: 767px) {
+  .App {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/* 
 .Cargando,
 .Colectivo {
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  /* box-sizing: border-box;
+  width: 100wh;
+  height: 50vh;
+
+} */
+
 p,
 .Valores {
-  margin: 3px;
-  padding: 10px;
-}
-
-p {
-  font-weight: 500;
-}
-
-h2 {
-  margin: 2px;
+  padding: 0.2vh;
 }
 
 .ClimaPrincipal * {
   background: rgba(0, 0, 0, 0);
 }
 
+.Cargando {
+  flex: 1;
+}
+
+.ClimaPrincipal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+}
+
+/* .ClimaPrincipal,
+.Colectivo {
+  width: 100%;
+  height: auto;
+} */
+
 .ClimaSup {
+  flex: 1;
   border: solid 2px black;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -81,6 +130,15 @@ h2 {
   justify-content: center;
 }
 
+.HorasTemp {
+  padding: 0.5vh;
+  font-size: 2vh;
+}
+
+.TempHora {
+  flex: 1;
+}
+
 .Valores,
 .Titulo {
   border: solid 2px black;
@@ -89,23 +147,28 @@ h2 {
 
 .Datos {
   display: flex;
+  box-sizing: border-box;
 }
 
 .Temperatura,
 .Datos {
   align-items: center;
   justify-content: space-evenly;
+  box-sizing: border-box;
 }
 
 .DatosSol {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .Titulo {
-  margin: 10px 10px;
+  margin: 1vh 1vh;
   align-self: stretch;
+  display: flex;
+  flex-direction: column;
 }
 
 .DatosInf {
@@ -118,31 +181,33 @@ h2 {
   background: #ffffffe6;
   border-radius: 45%;
   border: solid 1px black;
+  height: 10vh;
 }
 
 .ImagenOscura {
   background: #00000059;
   border-radius: 45%;
   border: solid 1px black;
+  height: 10vh;
 }
 
 .ImagenChicaClara {
   background: #ffffffe6;
-  height: 50px;
+  height: 6vh;
   border-radius: 45%;
   border: solid 1px black;
 }
 
 .ImagenGrandeClara {
   background-color: #ffffffe6;
-  height: 100px;
+  height: 10vh;
   border-radius: 45%;
   border: solid 1px black;
 }
 
 .ImagenChicaOscura {
   background: #00000059;
-  height: 50px;
+  height: 6vh;
   border-radius: 45%;
   border: solid 1px black;
 }
@@ -156,26 +221,30 @@ h2 {
 }
 
 .DatosInferiores {
+  flex: 1;
   border: solid 2px black;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .DatosInferiores * {
-  margin: 10px 10px;
+  margin: 0.5vh;
 }
 
-.Colectivo,
+/* .Colectivo,
 .Cargando {
   border: solid 1px black;
   top: 50%;
   left: 50%;
-}
+} */
 
 .TextoPantalla {
   font-size: 300%;
 }
 
-.Simbolo {
-  background-image: url(../Imagenes/FonsoSoleado4-transformed.jpeg);
+.SalidaYPuesta {
+  display: flex;
+  flex-direction: column;
+
 }

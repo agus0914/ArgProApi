@@ -1,12 +1,9 @@
-import { ClimaSup } from "./ClimaSup";
-import { TemperaturasDiaria } from "./TemperaturasXHoras";
-import { DatosInferiores } from "./DatoInferior";
-import { SetearDatos } from "../Componentes/DatosFiltrados";
-import { Cargando } from "../Componentes/Cargando";
+import { ClimaSup } from "../ClimaPrincipal/ClimaSup/ClimaSup";
+import { TemperaturasDiaria } from "./Temperaturas/TemperaturasXHoras";
+import { DatosInferiores } from "./ClimaInferior/DatoInferior";
+import { SetearDatos } from "C:/Users/agust/OneDrive/Documentos/Arg Pro/Tercera Parte/argprogapi/src/Datos/DatosFiltrados"
+import { Cargando } from "../Cargando";
 import { useState, useEffect } from "react";
-//import { useEffect, useState } from "react";
-//import { Cargando } from "./Cargando";
-//import Datos from "./Datos";
 
 export function ClimaPrincipal() {
   const [Carga, setCarga] = useState(false);
@@ -22,6 +19,7 @@ export function ClimaPrincipal() {
         }
         return response.json() } )
       .then((data) => {
+        console.log(data)
         setDatos(SetearDatos(data));
         setCarga(true);
       })

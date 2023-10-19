@@ -1,4 +1,4 @@
-import { TempIndividuales, TempVarias } from "../Componentes/ValoresSup";
+import { TempIndividuales, TempVarias } from "../ClimaSup/ValoresSup";
 
 export function ClimaSup({ Datos }) {
   console.log(Datos)

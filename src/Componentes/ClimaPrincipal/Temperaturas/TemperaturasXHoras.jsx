@@ -10,8 +10,8 @@ export function TemperaturasDiaria({ Datos }) {
   const temp = Datos.Temperaturas;
 
   const lista = horas.map((Hora) => (
-    <div key={Hora}>
-      <h4 style={{ margin: "1px", padding: "1px", fontSize: "16px" }}>
+    <div className="TempHora" key={Hora}>
+      <h4 className="HorasTemp">
         {horas[horas.indexOf(Hora)]}hs
       </h4>
       <h6>{temp[horas.indexOf(Hora)]}°</h6>

@@ -1,5 +1,5 @@
-import "./Componentes/Style.css";
-import { ClimaPrincipal } from "./Componentes/ClimaPrincipal";
+import "../src/Styles/Style.css";
+import { ClimaPrincipal } from "./Componentes/ClimaPrincipal/ClimaPrincipal";
 import { Colectivo } from "./Componentes/Colectivo";
 
 

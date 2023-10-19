@@ -25,7 +25,6 @@ export function TempIndividuales({ Titulo, Valor, Unidad, Logo }) {
         className="Imagen"
         src={Logo}
         alt={"Simbolo de " + Imagen}
-        style={{ height: 150 }}
       />
     </div>
   );

@@ -1,4 +1,4 @@
-import Logos from "../Componentes/Logos.json";
+import Logos from "../Datos/Logos.json";
 
 import TemDiaria from "../Imagenes/TemperaturaDiaria.svg";
 

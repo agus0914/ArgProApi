@@ -1,10 +1,8 @@
 {
   "files": {
-    "main.css": "/ArgProApi/static/css/main.83c2728f.css",
-    "main.js": "/ArgProApi/static/js/main.5b85c0e9.js",
-    "static/js/787.cf0b497f.chunk.js": "/ArgProApi/static/js/787.cf0b497f.chunk.js",
+    "main.css": "/ArgProApi/static/css/main.96777535.css",
+    "main.js": "/ArgProApi/static/js/main.97f3ce5d.js",
     "static/media/fondo-natural-cielo-nubes.jpg": "/ArgProApi/static/media/fondo-natural-cielo-nubes.31a44d5878e407cb6e03.jpg",
-    "static/media/FonsoSoleado4-transformed.jpeg": "/ArgProApi/static/media/FonsoSoleado4-transformed.db3b039c08c4c2deeb3f.jpeg",
     "static/media/Visibilidad.svg": "/ArgProApi/static/media/Visibilidad.cf7e48124c1c3703c6dc836415e044c2.svg",
     "static/media/TemperaturaMax.svg": "/ArgProApi/static/media/TemperaturaMax.d6d3500611aba3f5b2faccea616fa0b5.svg",
     "static/media/TemperaturaMin.svg": "/ArgProApi/static/media/TemperaturaMin.a73e72c8f3dd73f31abb08ed0bd0721c.svg",
@@ -15,14 +13,13 @@
     "static/media/Precipitaciones.svg": "/ArgProApi/static/media/Precipitaciones.550ce1972d2db37cab06c71f0d0f0842.svg",
     "static/media/Humedad.svg": "/ArgProApi/static/media/Humedad.764c599eb3217ae1e79e62a0310dc95a.svg",
     "static/media/Viento.svg": "/ArgProApi/static/media/Viento.fe58b3378a5b75dd0271fb4905e2a956.svg",
-    "static/media/Presion.svg": "/ArgProApi/static/media/Presion.aa0e319b556f30173ad6c048c7700730.svg",
     "index.html": "/ArgProApi/index.html",
-    "main.83c2728f.css.map": "/ArgProApi/static/css/main.83c2728f.css.map",
-    "main.5b85c0e9.js.map": "/ArgProApi/static/js/main.5b85c0e9.js.map",
-    "787.cf0b497f.chunk.js.map": "/ArgProApi/static/js/787.cf0b497f.chunk.js.map"
+    "static/media/Presion.svg": "/ArgProApi/static/media/Presion.aa0e319b556f30173ad6c048c7700730.svg",
+    "main.96777535.css.map": "/ArgProApi/static/css/main.96777535.css.map",
+    "main.97f3ce5d.js.map": "/ArgProApi/static/js/main.97f3ce5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.83c2728f.css",
-    "static/js/main.5b85c0e9.js"
+    "static/css/main.96777535.css",
+    "static/js/main.97f3ce5d.js"
   ]
 }

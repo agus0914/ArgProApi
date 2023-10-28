@@ -1,7 +1,6 @@
 import { TempIndividuales, TempVarias } from "../ClimaSup/ValoresSup";
 
 export function ClimaSup({ Datos }) {
-  console.log(Datos)
   const Dia = Datos.TempIndividuales.Dia;
   const Actual = Datos.TempIndividuales.TempActual;
   const Varias = Datos.TempVarias;

@@ -1,17 +1,15 @@
 import { SalidaPuesta, DatoInferior } from "./ComponentesInferiores";
 
 export function DatosInferiores({ Datos }) {
-  console.log(Datos);
-
   const Salida = Datos.Salida;
   const Puesta = Datos.Puesta;
   const Inferior = Datos.DatoInferior;
   return (
-    <div div className="DatosInferiores">
-      <div className="DatosInferiores">
+    <div className="DatosInferiores">
+      <div className="DatosInferior">
         <div className="SalidaYPuesta">
           <p className="Titulo">"Puesta y salida" </p>
-          <div className="DatosInferiores">
+          <div className="DatosInferior">
             <SalidaPuesta
               Valor={Salida.Valor}
               Imagen={Salida.Imagen}
@@ -33,7 +31,7 @@ export function DatosInferiores({ Datos }) {
         />
       </div>
 
-      <div className="DatosInferiores">
+      <div className="DatosInferior">
         <DatoInferior
           Titulo={Inferior.Presion.Titulo}
           Valor={Inferior.Presion.Valor}

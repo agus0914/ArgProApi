@@ -1,5 +1,4 @@
 export function TemperaturasDiaria({ Datos }) {
-  console.log(Datos);
 
   const Hora = Datos.Hora;
 
@@ -11,10 +10,9 @@ export function TemperaturasDiaria({ Datos }) {
 
   const lista = horas.map((Hora) => (
     <div className="TempHora" key={Hora}>
-      <h4 className="HorasTemp">
-        {horas[horas.indexOf(Hora)]}hs
-      </h4>
-      <h6>{temp[horas.indexOf(Hora)]}°</h6>
+      <p className="HorasTemp">
+        {horas[horas.indexOf(Hora)]}</p>
+      <p className="HorasTemp">{Math.round(temp[horas.indexOf(Hora)])}°</p>
     </div>
   ));
 

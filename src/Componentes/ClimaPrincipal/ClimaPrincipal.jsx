@@ -19,7 +19,6 @@ export function ClimaPrincipal() {
         }
         return response.json() } )
       .then((data) => {
-        console.log(data)
         setDatos(SetearDatos(data));
         setCarga(true);
       })

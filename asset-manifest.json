@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ArgProApi/static/css/main.67cb8df4.css",
-    "main.js": "/ArgProApi/static/js/main.1d3b3eb9.js",
+    "main.js": "/ArgProApi/static/js/main.64789a7a.js",
     "static/media/fondo-natural-cielo-nubes.jpg": "/ArgProApi/static/media/fondo-natural-cielo-nubes.31a44d5878e407cb6e03.jpg",
     "static/media/Visibilidad.svg": "/ArgProApi/static/media/Visibilidad.cf7e48124c1c3703c6dc836415e044c2.svg",
     "static/media/TemperaturaMax.svg": "/ArgProApi/static/media/TemperaturaMax.d6d3500611aba3f5b2faccea616fa0b5.svg",
@@ -16,10 +16,10 @@
     "index.html": "/ArgProApi/index.html",
     "static/media/Presion.svg": "/ArgProApi/static/media/Presion.aa0e319b556f30173ad6c048c7700730.svg",
     "main.67cb8df4.css.map": "/ArgProApi/static/css/main.67cb8df4.css.map",
-    "main.1d3b3eb9.js.map": "/ArgProApi/static/js/main.1d3b3eb9.js.map"
+    "main.64789a7a.js.map": "/ArgProApi/static/js/main.64789a7a.js.map"
   },
   "entrypoints": [
     "static/css/main.67cb8df4.css",
-    "static/js/main.1d3b3eb9.js"
+    "static/js/main.64789a7a.js"
   ]
 }

@@ -1,16 +1,18 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { useEffect, useState } from "react";
 import L from "leaflet";
+import { Opciones } from "./Opciones";
 
 // json con la informacion de los colores de las lineas
 
 import ColoresLineas from "../../Datos/ColoresLineas.json";
 
+
 // este es el componente principal de Las lineas de colectivos
 
 export function Colectivo() {
   const [Lista, setLista] = useState(null);
-  const [Linea, setLinea] = useState(null);
+  const [Linea, setLinea] = useState(null)
   const [Carga, setCarga] = useState(false);
 
   const [Posicion, setPosicion] = useState([-34.6, -58.46667]);
@@ -21,12 +23,8 @@ export function Colectivo() {
   // funcion para hacer la llamada a la api anterior
   const LlamadaApi = () => { 
     fetch(UrlApi)
-      .then((response) => {
-        while (!response.ok) {
-          // Error
-        }
-        return response.json();
-      })
+      .then((response) => response.json()
+      )
       .then((data) => {
         // se cambia el estado de carga para cambiar de pantalla
         setCarga(true);
@@ -40,9 +38,9 @@ export function Colectivo() {
 
   // primer useEffect que ante cambio de linea hace una nueva llamada
 
-  useEffect(() => {
+/*   useEffect(() => {
     LlamadaApi();
-  }, [Linea]);
+  }, [Linea]); */
 
   // segundo useEffect que hace la llamada cada 31 segundos para actualizar la posicion de los colectivos
   useEffect(
@@ -60,6 +58,7 @@ export function Colectivo() {
 
   // funcion para crear el icono personalizado para cada bondi con su color de linea,  posicion e informacion mostrada en PopUp
   const IconoPersonalizado = ({ linea, color, position, bondi }) => {
+    console.log(bondi)
     const iconoPersonalizado = L.divIcon({
       className: "iconoPersonalizado",
       html: `<div className = "iconoDiv" style= "border-radius: 40% ; border: solid ${color[1]} 0.5vh ; width: 2vh; height: 2vh;  background-color: ${color[0]} ; font-size: 1.5vh ; display: flex;
@@ -108,16 +107,18 @@ export function Colectivo() {
         {/* se llama a la funcion con el valor de route_id de cada linea */}
         <select name="select" onChange={(e) => setLinea(e.target.value)}>
           <option value="vacio">Linea</option>
-          <option value="1468">153A a B° Nuevo</option>
-          <option value="1467">321A a Est. CASTELAR</option>
-          <option value="1700">159J a Correo Central</option>
-          <option value="982">219R3R</option>
-          <option value="1">7A</option>
-          <option value="556">158A</option>
-          <option value="1632">148A C - Cementerio</option>
-          <option value="1696">159E 2 hacia C Central</option>
-          <option value="995">372 a Don Bosco - Achaga - B° San Juan</option>
+          <option value="153">153</option>
+          <option value="321">321</option>
+          <option value="159">159</option>
+          <option value="219">219</option>
+          <option value="7">7</option>
+          <option value="158">158</option>
+          <option value="148">148</option>
         </select>
+
+        <Opciones Linea={Linea} Pedido={(Pedido) => setLinea(Pedido)} ></Opciones>
+
+        
       </div>
       <MapContainer center={Posicion} zoom={10} scrollWheelZoom={true}>
         <TileLayer

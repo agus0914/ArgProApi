@@ -1,0 +1,91 @@
+{
+  "153": {
+    "153A": {
+      "a B° Nuevo": "1468"
+    }
+  },
+  "321": {
+    "321A": {
+      "a Est. CASTELAR": "1467",
+      "a LIBERTAD": "1466"
+    }
+  },
+  "159": {
+    "159A": {
+      "L (Azul) Correo Central": "1703",
+      "Pza Constitución - IDA": "1702"
+    },
+    "159B": {
+      "nombre": "L (Roja) Alpargatas",
+      "valor": "830"
+    },
+    "158C": {
+      "Ramal 3 - IDA": "838",
+      "L (Roja) Correo Central": "839"
+    },
+    "159D": {
+      "1 hacia C Varela": "1693"
+    },
+    "159E": {
+      "2 hacia C Central": "1696",
+      "2 hacia Berazategui": "1695"
+    },
+    "159K": {
+      "Semirápido Hudson hacia Hudson": "1708",
+      "Semirápido Hudson hacia Capital": "1709"
+    },
+    "159I": {
+      "Semirapido Quilmes hacia Capital": "1707"
+    }
+  },
+  "219": {
+    "219R3R": {
+      "a Escuela NÂ° 135": "983"
+    },
+    "219R3N": {
+      "a Villa Leon": "981"
+    },
+    "219R5": {
+      "a Villa Scasso": "987"
+    }
+  },
+  "7": {
+    "7A": {
+      "Toma Nueva": "1",
+      "Barrio Policial": "2"
+    },
+    "7B": {
+      "a Retiro": "1609",
+      "a B° Samore": "1608"
+    }
+  },
+  "158": {
+    "158A": {
+      "a Est. Lanus": "555",
+      "a Nueva Pompeya": "556"
+    }
+  },
+  "148": {
+    "148A": {
+      "C - Cementerio": "1632"
+    },
+    "148B": {
+      "a Constitución": "1635"
+    },
+    "148D": {
+      "a Constitución": "316"
+    },
+    "148F": {
+      "a Constitución": "1643"
+    },
+    "148H": {
+      "F x Monteverde": "1646"
+    },
+    "148I": {
+      "a Constitución": "1649"
+    },
+    "148J": {
+      "I x Pasco": "1650"
+    }
+  }
+}

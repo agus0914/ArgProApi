@@ -4,69 +4,64 @@ import InfoSublineas from "../../Datos/Lineas.json";
 export function Opciones({ Linea, Pedido }) {
   const [ListaSublineas, setListaSublineas] = useState([]);
   const [Recorrido, setRecorrido] = useState(false);
-  const [Marcador,setMarcador] = useState(0);
-  let marcador2 = 0;
+  const [Marcador, setMarcador] = useState(1);
   let recorridos = [];
   let listaSublineas = [];
-  let sublinesSelect;
-useEffect (
-  () => {
 
-  },
-  [Marcador,{Linea}]
-)
-  for (let key in InfoSublineas[Linea]) {
-    listaSublineas.push(key);
-    console.log(listaSublineas);
-  }
+  useEffect(() => {
+    for (let key in InfoSublineas[Linea]) {
+      listaSublineas.push(key);
+    }
 
-  const opcionesSub = listaSublineas.map((sublinea) => (
-    <option key={sublinea} value={sublinea}>
-      {sublinea}
-    </option>
-  )
-  );
+    setListaSublineas(
+      listaSublineas.map((sublinea) => (
+        <option key={sublinea} value={sublinea}>
+          {sublinea}
+        </option>
+      ))
+    );
+  }, [Linea]);
 
   const filtrarrecorridos = (recorrido) => {
-    sublinesSelect = recorrido;
     for (let bondi in InfoSublineas[Linea][recorrido]) {
       recorridos.push(bondi);
-      console.log(recorridos);
-      console.log(InfoSublineas[Linea][sublinesSelect][bondi]);
     }
-    setMarcador(2);
+    setRecorrido(
+      recorridos.map((a, index) => (
+        <option key={index} value={InfoSublineas[Linea][recorrido][a]}>
+          {a}
+        </option>
+      ))
+    );
   };
 
-  const OpcionesRecorridos = recorridos.map((a) => (
-    <option value={InfoSublineas[Linea][sublinesSelect][a]}>{a}</option>
-  ));
-
-  if (Marcador === 0) {
-    return console.log("no se muestra nada");
-  } else if (recorridos.length === 0 , listaSublineas.length !== 0) {
+  if (!Linea) {
+    return;
+  } else if (Marcador === 1) {
     return (
       <>
-        {console.log(recorridos.length, listaSublineas.length)}
         <select
-          onChange={(e) => (
-            filtrarrecorridos(e.target.value),
-            setMarcador(1),
-            console.log(recorridos.length, listaSublineas.length)
-          )}
+          className="Valores"
+          onChange={(e) => (filtrarrecorridos(e.target.value), setMarcador(2))}
         >
-          {opcionesSub}
+          <option>Sublinea</option>
+          {ListaSublineas}
         </select>
       </>
     );
   } else if (Marcador === 2) {
     return (
       <>
-        {console.log(recorridos.length, listaSublineas.length)}
-        <select onChange={(e) => filtrarrecorridos(e.target.value)}>
-          {opcionesSub}
+        <select
+          className="Valores"
+          onChange={(e) => filtrarrecorridos(e.target.value)}
+        >
+          <option>Sublinea</option>
+          {ListaSublineas}
         </select>
-        <select onChange={(e) => Pedido(e.target.value)}>
-          {OpcionesRecorridos}
+        <select className="Valores" onChange={(e) => Pedido(e.target.value)}>
+          <option>Recorrido</option>
+          {Recorrido}
         </select>
       </>
     );

@@ -1,7 +1,7 @@
 import { ClimaSup } from "../ClimaPrincipal/ClimaSup/ClimaSup";
 import { TemperaturasDiaria } from "./Temperaturas/TemperaturasXHoras";
 import { DatosInferiores } from "./ClimaInferior/DatoInferior";
-import { SetearDatos } from "C:/Users/agust/OneDrive/Documentos/Arg Pro/Tercera Parte/argprogapi/src/Datos/DatosFiltrados"
+import { SetearDatos } from "../../Datos/DatosFiltrados"
 import { Cargando } from "../Cargando";
 import { useState, useEffect } from "react";
 
